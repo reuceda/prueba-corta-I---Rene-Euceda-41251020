@@ -1,13 +1,12 @@
 const app = require('./app');
+const express = require('express');
 const sequilize = require('./config/database');
 require('dotenv').config();
 
 const PORT = process.env.PORT || 3000;
 
-const conectarDB = require('./db');
 const Citas = require('./models/citas.model');
 
-const app = express();
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.json());

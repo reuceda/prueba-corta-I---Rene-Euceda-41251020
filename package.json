@@ -26,5 +26,8 @@
     "express-validator": "^7.3.1",
     "mysql2": "^3.16.3",
     "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
