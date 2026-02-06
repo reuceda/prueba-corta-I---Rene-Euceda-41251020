@@ -37,7 +37,7 @@ const Citas = sequelize.define('Citas', {
         },
     },
     especialidad: {
-        type: DataTypes.ENUM('medicina_general', 'pediatría', 'odontologia',
+        type: DataTypes.ENUM('medicina_general', 'pediatria', 'odontologia',
             'ginecologia', 'cardiologia'
         ),
         allowNull: false,
