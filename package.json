@@ -1,0 +1,28 @@
+{
+  "name": "prueba-corta-i---rene-euceda-41251020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reuceda/prueba-corta-I---Rene-Euceda-41251020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/reuceda/prueba-corta-I---Rene-Euceda-41251020/issues"
+  },
+  "homepage": "https://github.com/reuceda/prueba-corta-I---Rene-Euceda-41251020#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.37.7"
+  }
+}
